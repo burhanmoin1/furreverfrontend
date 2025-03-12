@@ -9,13 +9,13 @@ export default function Footer () {
             <div className="bg-[#FFC909] relative w-full h-fit top-4 py-4 z-20">
             <div className="relative z-40 mt-14 flex flex-col items-center">
             <Image src='./Logo (1).svg' alt='FurrEver' width={100} height={100}/>
-            <h2 className={`${rubik.className} text-6xl font-bold font-rubik`}>FUR&apos;EVER</h2>
+            <h2 className={`${rubik.className} 2xl:text-6xl font-bold font-rubik md:text-xl`}>FUR&apos;EVER</h2>
             <div className="flex space-x-14 mt-24 text-xl">
-                <h2>Home</h2>
-                <h2>About Us</h2>
-                <h2>How It Works</h2>
-                <h2>Our Impact</h2>
-                <h2>Contact</h2>
+                <h2 className="cursor-pointer">Home</h2>
+                <h2 className="cursor-pointer">About Us</h2>
+                <h2 className="cursor-pointer">How It Works</h2>
+                <h2 className="cursor-pointer">Our Impact</h2>
+                <h2 className="cursor-pointer">Contact</h2>
             </div>
             <div className="flex space-x-4 mt-24">
                 <Image src='./Facebook.svg' alt="Furrever Facebook" width={50} height={100}/>
