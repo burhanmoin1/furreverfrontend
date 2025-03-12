@@ -21,7 +21,7 @@ export default function HeroCurve() {
                     width={400} 
                     height={100} 
                     alt="curves"
-                    className="absolute bottom-0 right-0 z-40 animate-bounce"
+                    className="absolute bottom-0 right-0 z-40 jump-animation"
                 />
                 </div>
          <AboutUs />
