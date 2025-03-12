@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+
+@keyframes jumpAnimation {
+    0%, 100% {
+        transform: translateY(0) translateX(0);
+      }
+      50% {
+        transform: translateY(-40px) translateX(-20px); /* Moves up and slightly left */
+      }
+    }
+  
+  .jump-animation {
+    animation: jumpAnimation 3s ease-out infinite;
+  }
+  
+  @keyframes heartbeat-darken {
+    0%, 100% {
+      filter: brightness(1); /* Normal brightness */
+    }
+    50% {
+      filter: brightness(0.5); /* Darkens the heart */
+    }
+  }
+  
+  .heartbeat-animation {
+    animation: heartbeat-darken 0.9s ease-in infinite;
+  }
+
+
+  @keyframes fastBlink {
+    0%, 100% {
+      opacity: 1;
+      content: url('/Head Blink.svg'); /* Default image */
+    }
+    50% {
+      opacity: 1;
+      content: url('/hearteyes.png'); /* Switched image */
+    }
+  }
+  
+  .blinking-head {
+    animation: fastBlink 0.125s steps(1) infinite; /* Fast switch every 0.2s */
+  }
+  
+  
+  

@@ -31,7 +31,17 @@ export default function EmailTaker() {
             <h2 className="text-6xl font-semibold mt-14">Get Involved Today!</h2>
 
             <div className="flex justify-between w-[80%] mt-14">
-                <Image src='/Heart Beat.svg' width={600} height={100} alt="Heart Beat"/>
+            <div className="relative w-[600px] flex justify-center">
+                        <Image src='/Heart Beat.svg' width={600} height={100} alt="Heart Beat"/>
+                        <Image 
+                            src='/Heart.svg' 
+                            width={80} 
+                            height={100} 
+                            alt="Heart" 
+                            className="absolute top-[58%] left-[72%] transform -translate-x-1/2 -translate-y-[10%] heartbeat-animation"
+                        />
+                    </div>
+
                 <div className="flex flex-col w-[40%] space-y-4 justify-center">
                     <h2 className="text-3xl w-[65vmin] text-center self-center">
                         Be part of the FurrEver revolution before it's too late. Sign up with your email to stay updated
@@ -47,7 +57,7 @@ export default function EmailTaker() {
 
                     <button 
                         onClick={handleSubmit}
-                        className="text-black bg-[#FFC909] w-fit self-center px-8 border-black border-[1px] py-2 rounded-sm"
+                        className="text-black bg-[#FFC909] hover:shadow-2xl hover:cursor-pointer w-fit self-center px-10 border-black border-[0.2px] py-3 rounded-md"
                     >
                         Submit
                     </button>
