@@ -44,7 +44,7 @@ export default function EmailTaker() {
 
                 <div className="flex flex-col w-[40%] space-y-4 justify-center">
                     <h2 className="text-3xl w-[65vmin] text-center self-center">
-                        Be part of the FurrEver revolution before it's too late. Sign up with your email to stay updated
+                        Be part of the FurrEver revolution before it&apos;s too late. Sign up with your email to stay updated
                     </h2>
 
                     <input 

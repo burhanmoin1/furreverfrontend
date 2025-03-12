@@ -9,7 +9,7 @@ export default function Footer () {
             <div className="bg-[#FFC909] relative w-full h-fit top-4 py-4 z-20">
             <div className="relative z-40 mt-14 flex flex-col items-center">
             <Image src='./Logo (1).svg' alt='FurrEver' width={100} height={100}/>
-            <h2 className={`${rubik.className} text-6xl font-bold font-rubik`}>FUR'EVER</h2>
+            <h2 className={`${rubik.className} text-6xl font-bold font-rubik`}>FUR&apos;EVER</h2>
             <div className="flex space-x-14 mt-24 text-xl">
                 <h2>Home</h2>
                 <h2>About Us</h2>
