@@ -23,6 +23,19 @@ export default function HeroCurve() {
                     alt="curves"
                     className="absolute bottom-0 right-0 z-40 jump-animation"
                 />
+                 <Image 
+                    src="/A.svg" 
+                    width={120} 
+                    height={100} 
+                    alt="curves"
+                    className="absolute 2xl:bottom-24 2xl:right-58 md:bottom-10 md:right-58 z-40"
+                /> <Image 
+                src="/Dog 2.svg" 
+                width={200} 
+                height={100} 
+                alt="curves"
+                className="absolute 2xl:bottom-14 2xl:right-84 md:bottom-4 md:right-82 z-20"
+            />
                 </div>
          <AboutUs />
          <EmailTaker />
