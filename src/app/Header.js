@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header () {
     return (
-    <div className="w-screen h-14 flex items-center justify-between 2xl:px-44 md:px-14 py-14 bg-[#6BCCD5]">
+    <div className="hidden w-screen h-14 2xl:flex md:flex items-center justify-between 2xl:px-44 md:px-14 py-14 bg-[#6BCCD5]">
         <div>
         <Image src='./Logo.svg' alt='logo' width={80} height={100} />
         </div>

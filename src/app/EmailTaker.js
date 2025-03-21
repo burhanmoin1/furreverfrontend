@@ -25,13 +25,13 @@ export default function EmailTaker() {
 
     return (
         <div className="h-[100vh] flex flex-col items-center justify-center bg-[#6BCCD5] relative">
-            <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full absolute top-[-7.5rem] z-40"/>
-            <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full absolute bottom-[-8rem] z-40"/>
+            <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:top-[-7.5rem] md:top-[-6rem] z-40"/>
+            <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:bottom-[-8rem] md:bottom-[-6rem] z-40"/>
             
             <h2 className="2xl:text-6xl font-semibold mt-14 md:text-3xl">Get Involved Today!</h2>
 
-            <div className="flex justify-between w-[80%] mt-14">
-            <div className="relative w-[600px] flex justify-center">
+            <div className="flex md:flex-row flex-col justify-between w-[80%] mt-14">
+            <div className="relative w-[600px] hidden 2xl:flex md:flex justify-center">
                         <Image src='/Heart Beat.svg' width={600} height={100} alt="Heart Beat" className="md:w-[70%] 2xl:w-[100%]"/>
                         <Image 
                             src='/Heart.svg' 
@@ -42,7 +42,7 @@ export default function EmailTaker() {
                         />
                     </div>
 
-                <div className="flex flex-col w-[40%] space-y-4 justify-center">
+                <div className="flex flex-col md:w-[40%] space-y-4 justify-center">
                     <h2 className="2xl:text-3xl w-[65vmin] text-center self-center md:text-xl">
                         Be part of the FurrEver revolution before it&apos;s too late. Sign up with your email to stay updated
                     </h2>

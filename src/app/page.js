@@ -1,7 +1,13 @@
+import AboutUs from "./AboutUs";
+import EmailTaker from "./EmailTaker";
+import Footer from "./Footer";
 import Header from "./Header";
 import HeaderCurves from "./HeaderCurves";
 import HeroContent from "./HeroContent";
 import HeroCurve from "./HeroCurve";
+import MobileHeroContent from "./MobileHeroContent";
+import TestContent from "./TestContent";
+import WhyJoin from "./WhyJoin";
 
 export default function Home() {
   return (
@@ -10,9 +16,13 @@ export default function Home() {
     <Header />
     <HeaderCurves />
     </div>
-    <HeroCurve />
-    <HeroContent />
- 
+    {/* <HeroCurve /> */}
+    <TestContent />
+    <MobileHeroContent />
+    <AboutUs />
+ <EmailTaker />
+ <WhyJoin />
+ <Footer />
     </div>
   );
 }

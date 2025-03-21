@@ -13,7 +13,7 @@ export default function HeroCurve() {
                     width={100} 
                     height={100} 
                     alt="curves"
-                    className="2xl:w-full 2xl:h-[100vh] md:h-[100vh] md:w-full absolute bottom-0 z-10"
+                    className="2xl:w-full 2xl:h-[140vh] md:h-[100vh] md:w-full absolute bottom-0 z-10"
                 />
                   <Image src="/Rectangle 7.svg" width={100} height={100} alt='curves' className="2xl:w-full 2xl:h-[100vh] md:w-full md:h-[100vh] absolute bottom-[-10px]"/>
                 <Image 
