@@ -12,34 +12,34 @@ export default function MobileHeroContent () {
                 SAFE and HAPPY well-being for animals with FurrEver!
             </h2>
            
-            {/* <Image 
+            <Image 
                 src="/Jump.svg" 
-                width={400} 
+                width={200} 
                 height={100} 
                 alt="curves"
-                className="absolute 2xl:bottom-[1rem] md:bottom-[-4rem] right-0 z-40"
-            /> */}
-                {/* <Image 
+                className="absolute bottom-[-3rem] right-0 z-40"
+            /> 
+                <Image 
                 src="/A.svg" 
-                width={120} 
+                width={80} 
                 height={100} 
                 alt="curves"
-                className="absolute 2xl:bottom-26 2xl:right-50 md:bottom-10 md:right-50 z-40"
+                className="absolute bottom-[1rem] right-30 md:bottom-10 md:right-50 z-40"
             />
                 <Image 
             src="/Dog 2.svg" 
-            width={200} 
+            width={120} 
             height={100} 
             alt="curves"
-            className="absolute 2xl:bottom-16 2xl:right-72 md:bottom-3 md:right-70 z-20"
+            className="absolute bottom-[1rem] right-44 md:bottom-3 md:right-70 z-20"
             />
             <Image 
                 src="/Tail.svg" 
-                width={60} 
+                width={34} 
                 height={100} 
                 alt="curves"
-                className="absolute 2xl:bottom-34 2xl:right-109 md:bottom-20 md:right-107 z-10 fast-bounce"
-                /> */}
+               className="absolute bottom-[3.5rem] right-66 md:bottom-3 md:right-70 z-10 fast-bounce"
+                /> 
         </div>
     );
 };
