@@ -21,21 +21,29 @@ export default function HeroCurve() {
                     width={400} 
                     height={100} 
                     alt="curves"
-                    className="absolute bottom-0 right-0 z-40 jump-animation"
+                    className="absolute 2xl:bottom-[1rem] md:bottom-[-4rem] right-0 z-40"
                 />
                  <Image 
                     src="/A.svg" 
                     width={120} 
                     height={100} 
                     alt="curves"
-                    className="absolute 2xl:bottom-24 2xl:right-58 md:bottom-10 md:right-58 z-40"
-                /> <Image 
+                    className="absolute 2xl:bottom-26 2xl:right-50 md:bottom-10 md:right-50 z-40"
+                />
+                 <Image 
                 src="/Dog 2.svg" 
                 width={200} 
                 height={100} 
                 alt="curves"
-                className="absolute 2xl:bottom-14 2xl:right-84 md:bottom-4 md:right-82 z-20"
-            />
+                className="absolute 2xl:bottom-16 2xl:right-72 md:bottom-3 md:right-70 z-20"
+                />
+              <Image 
+                    src="/Tail.svg" 
+                    width={60} 
+                    height={100} 
+                    alt="curves"
+                    className="absolute 2xl:bottom-34 2xl:right-109 md:bottom-20 md:right-107 z-10 fast-bounce"
+                    />
                 </div>
          <AboutUs />
          <EmailTaker />
