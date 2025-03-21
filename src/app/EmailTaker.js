@@ -24,7 +24,7 @@ export default function EmailTaker() {
     };
 
     return (
-        <div className="h-[100vh] flex flex-col items-center justify-center bg-[#6BCCD5] relative">
+        <div id="email-taker" className="h-[100vh] flex flex-col items-center justify-center bg-[#6BCCD5] relative">
             <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:top-[-7.5rem] md:top-[-6rem] z-40"/>
             <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:bottom-[-8rem] md:bottom-[-6rem] z-40"/>
             <div className="relative w-[200px] 2xl:hidden md:hidden mr-14">
