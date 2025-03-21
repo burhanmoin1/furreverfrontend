@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function WhyJoin () {
     return (
-        <div className="h-[60vh] p-10 flex flex-col md:mt-8 items-center justify-center">
+        <div className="h-[100vh] p-10 flex flex-col md:mt-8 items-center justify-center">
               <Image  src='/Frame 18.svg' width={180} height={100} alt="Furrever" className="flex md:hidden mt-4"/>
             <div className="flex gap-4 items-center">
                 
-            <h2 className="2xl:text-6xl font-semibold text-[#6BCCD5] md:text-3xl text-3xl mt-4">Why Join FUR&apos;EVER?</h2>
+            <h2 className="2xl:text-6xl font-semibold text-[#6BCCD5] md:text-3xl text-2xl mt-4">Why Join FUR&apos;EVER?</h2>
             </div>
             <div className="flex items-center">
           

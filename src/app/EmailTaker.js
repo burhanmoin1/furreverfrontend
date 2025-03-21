@@ -27,14 +27,14 @@ export default function EmailTaker() {
         <div className="h-[100vh] flex flex-col items-center justify-center bg-[#6BCCD5] relative">
             <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:top-[-7.5rem] md:top-[-6rem] z-40"/>
             <Image src='/Group 33.svg' alt="FurrEver Curves" width={100} height={100} className="w-full hidden md:block md:absolute 2xl:bottom-[-8rem] md:bottom-[-6rem] z-40"/>
-            <div className="relative w-[400px] 2xl:hidden md:hidden justify-center">
+            <div className="relative w-[200px] 2xl:hidden md:hidden mr-14">
                         <Image src='/Heart Beat.svg' width={600} height={100} alt="Heart Beat" className="left-10"/>
                         <Image 
                             src='/Heart.svg' 
-                            width={60} 
+                            width={30} 
                             height={100} 
                             alt="Heart" 
-                            className="absolute bottom-[5.1rem] right-[3.1rem] transform -translate-x-1/2 -translate-y-1/2 heartbeat-animation"
+                            className="absolute bottom-[2.5rem] right-[1.5rem] transform -translate-x-1/2 -translate-y-1/2 heartbeat-animation"
                             />
 
                     </div>
